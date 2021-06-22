@@ -1,4 +1,4 @@
-# nmt_transformer
+# kor-eng-nmt_transformer
 
 !pip install matplotlib
 </br>
