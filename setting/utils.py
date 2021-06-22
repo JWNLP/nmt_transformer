@@ -171,7 +171,7 @@ def display_attention(candidate, translation, attention):
     attention = attention.cpu().detach().numpy()
     # attention = [target length, source length]
 
-    font_location = 'pickles/NanumSquareR.ttf'
+    font_location = '/content/drive/MyDrive/transformer/pickles/NanumSquareR.ttf'
     fontprop = fm.FontProperties(fname=font_location)
 
     fig = plt.figure(figsize=(10, 10))
