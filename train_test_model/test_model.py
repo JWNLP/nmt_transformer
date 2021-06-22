@@ -6,7 +6,7 @@ from setting.utils import load_dataset, make_iter, Params
 
 
 def test_model(config):
-    params = Params('/content/drive/MyDrive/transformer/data/test_params.json')
+    #params = Params('/content/drive/MyDrive/transformer/data/test_params.json')
 
     if config.mode == 'test':
         test_data = load_dataset(config.mode)
