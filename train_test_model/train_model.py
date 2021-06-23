@@ -26,4 +26,4 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Transformer Neural Machine Translation')
     parser.add_argument('--mode', type=str, default='train', choices=['train', 'test'])
     args = parser.parse_args(args=[])
-    main(args)
+    train_model(args)
