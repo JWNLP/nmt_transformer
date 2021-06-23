@@ -1,3 +1,9 @@
+#attetion all you need
+#noam optimizer
+#https://nn.labml.ai/optimizers/noam.html
+
+
+
 import numpy as np
 
 
